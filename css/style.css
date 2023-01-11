@@ -830,12 +830,19 @@ pre code {
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 500px;
+    
   }
 }
 @media (max-width: 500px) {
 div .imgC {
-   width: 500px;
+   width: 100%;
   }
+  .input-group-append{
+    width: auto;
+    margin-left: -76px !important;
+
+   
+     }
 }
 
 @media (min-width: 768px) {
